@@ -1,0 +1,10 @@
+*.db
+*.py[cod]
+.states
+.web
+__pycache__/
+alembic.ini
+alembic/
+assets/external/
+venv/
+.env

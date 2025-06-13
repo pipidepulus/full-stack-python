@@ -1,0 +1,13 @@
+{
+  "include": [
+    "full_stack_python"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "venv"
+  ],
+  "reportMissingImports": true,
+  "pythonVersion": "3.12", // Ajusta a tu versión de Python si es diferente (ej. "3.12")
+  "pythonPlatform": "Linux" // O "Windows" o "Darwin" para macOS
+}

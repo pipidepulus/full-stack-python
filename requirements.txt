@@ -1,0 +1,28 @@
+# --- Dependencias del Framework y la Plantilla ---
+reflex==0.5.3
+reflex-local-auth
+
+# --- Dependencias de la Lógica del Asistente RAG ---
+
+# Para interactuar con la API de OpenAI
+openai
+
+# Para leer variables de entorno desde el archivo .env
+python-dotenv
+
+# Para hacer peticiones HTTP (scraping)
+requests
+beautifulsoup4
+lxml
+
+# Para análisis y manipulación de datos (usado en scraping)
+pandas
+
+# Para extracción de texto de archivos
+python-docx
+PyMuPDF
+
+# Para el proceso de OCR en PDFs escaneados
+pdf2image
+Pillow
+pytesseract

@@ -1,0 +1,17 @@
+rm -rf venv
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+Editar requirements.txt
+reflex
+reflex-local-auth
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+reflex init
+
+reflex db init
+reflex run
